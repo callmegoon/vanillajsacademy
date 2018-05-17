@@ -1,7 +1,7 @@
 # Vanilla JS Academy
 
 ### Project 1
-Topic: Show/Hide Passwords
+Topic: Show/Hide Passwords<br />
 Project Solutions: [⟿](project-1/index.html)
 
 ### Project 2
