@@ -1,10 +1,11 @@
 # Vanilla JS Academy
 
 ### Project 1
-Topic: Show/Hide Passwords<br />
-Project Solutions: [⟿](project-1/index.html)
+*Topic:* Show/Hide Passwords<br />
+Solution Code: [⟿](project-1/index.html)
+Solution Prototype:
 
 ### Project 2
-Topic:
+*Topic:*
 Solutions:
 

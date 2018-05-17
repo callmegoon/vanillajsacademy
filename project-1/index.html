@@ -146,13 +146,13 @@
 
 	<script>
 
-	// #region SHOW LOG IN PASSWORD
+	// SHOW 'LOG IN' PASSWORD
 
 		// Get the checkbox input and the password input
 			var showHidePassword = document.querySelector('#show-password');
 			var passwordInput = document.querySelector('#password');
 
-		// OPTION 1 — when the input changes, check if it's checked to control the password input type aka show/hide the input value
+		// When the input changes, check if it's checked to change the password input type
 			showHidePassword.addEventListener('change', function() {
 				if(this.checked) {
 					passwordInput.setAttribute('type', 'text');
@@ -161,19 +161,7 @@
 				}
 			});
 
-		// OPTION 2 (I like option 1 better) - listen for a click on the checkbox, add/remove a class to understand the state of the checkbox
-			// showHidePassword.addEventListener('click', function() {
-			// 	if (this.classList.contains('showing-password')) {
-			// 		passwordInput.setAttribute('type', 'password');
-			// 		this.classList.remove('showing-password');
-			// 	} else {
-			// 		passwordInput.setAttribute('type', 'text');
-			// 		this.classList.add('showing-password');
-			// 	}
-			// });
-	// #endregion
-
-	// #region SHOW CHANGE PASSWORD INPUTS
+	// SHOW 'CHANGE PASSWORD' INPUTS
 
 		// Get the checkbox input and the password inputs
 			var showHidePasswords = document.querySelector('#show-passwords');
@@ -191,8 +179,6 @@
 					});
 				}
 			});
-
-	// #endregion
 
 	</script>
 
